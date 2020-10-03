@@ -1083,7 +1083,7 @@
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -1097,20 +1097,6 @@
 		</dict>
 		<key>Entries</key>
 		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Windows10</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>U-Win10</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x14,0x0)/USB(0xF,0x0)/USB(0x1,0x0)/HD(1,GPT,86A2AF4A-9044-4BEF-AA82-0EB074533A3C,0x28,0x64000)/\EFI-win10\Microsoft\Boot\bootmgfw.efi</string>
-			</dict>
 		</array>
 		<key>Security</key>
 		<dict>
@@ -1131,7 +1117,7 @@
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
-			<integer>2147483648</integer>
+			<integer>0</integer>
 			<key>PasswordHash</key>
 			<data>
 			</data>
@@ -1139,7 +1125,7 @@
 			<data>
 			</data>
 			<key>ScanPolicy</key>
-			<integer>19858179</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>
